@@ -3,7 +3,7 @@ Summary:	Sime cookie-based poll product based on Archetypes
 Summary(pl):	Produkt bazuj±cy na Archetypes umo¿liwiaj±cy dodanie pola do g³osowañ
 Name:		Zope-CMF%{zope_subname}
 Version:	0.3.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Tools
 Source0:	http://dl.sourceforge.net/collective/%{zope_subname}-%{version}.tar.gz
