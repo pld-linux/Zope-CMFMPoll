@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.python
 %define		zope_subname	MPoll
 Summary:	Sime cookie-based poll product based on Archetypes
 Summary(pl):	Produkt bazuj±cy na Archetypes umo¿liwiaj±cy dodanie pola do g³osowañ
