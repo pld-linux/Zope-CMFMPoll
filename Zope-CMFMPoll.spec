@@ -7,23 +7,23 @@ Version:	0.3.1
 Release:	1
 License:	GPL
 Group:		Development/Tools
-Source0:	http://dl.sourceforge.net/sourceforge/collective/%{zope_subname}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/collective/%{zope_subname}-%{version}.tar.gz
 # Source0-md5:	bc8dd0f835e51a16a421e550bb4667f3
 URL:		http://sourceforge.net/projects/collective/
+Requires(post,postun):	/usr/sbin/installzopeproduct
 %pyrequires_eq	python-modules
 Requires:	Zope
 Requires:	Zope-CMF
 Requires:	Zope-archetypes
-Requires(post,postun):	/usr/sbin/installzopeproduct
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Conflicts:	CMF
 
 %description
-Sime cookie-based poll product based on Archetypes
+Sime cookie-based poll product based on Archetypes.
 
 %description -l pl
-Produkt bazuj±cy na Archetypes umo¿liwiaj±cy dodanie pola do g³osowañ
+Produkt bazuj±cy na Archetypes umo¿liwiaj±cy dodanie pola do g³osowañ.
 
 %prep
 %setup -q -n %{zope_subname}
