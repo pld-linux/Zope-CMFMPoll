@@ -1,6 +1,6 @@
 %define		zope_subname	MPoll
 Summary:	Sime cookie-based poll product based on Archetypes
-Summary(pl):	Produkt bazuj±cy na Archetypes umo¿liwiaj±cy dodanie pola do g³osowañ
+Summary(pl.UTF-8):   Produkt bazujÄ…cy na Archetypes umoÅ¼liwiajÄ…cy dodanie pola do gÅ‚osowaÅ„
 Name:		Zope-CMF%{zope_subname}
 Version:	0.3.1
 Release:	2
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Sime cookie-based poll product based on Archetypes.
 
-%description -l pl
-Produkt bazuj±cy na Archetypes umo¿liwiaj±cy dodanie pola do g³osowañ.
+%description -l pl.UTF-8
+Produkt bazujÄ…cy na Archetypes umoÅ¼liwiajÄ…cy dodanie pola do gÅ‚osowaÅ„.
 
 %prep
 %setup -q -n %{zope_subname}
